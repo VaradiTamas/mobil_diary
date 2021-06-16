@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="20"
+    android:orientation="horizontal"
+    android:background="@drawable/task_border"
+    android:paddingLeft="7dp"
+    android:layout_marginBottom="3dp">
+
+    <TextView
+        android:id="@+id/tvToDoText"
+        android:layout_weight="16"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"/>
+
+    <ImageButton
+        android:id="@+id/btnDeleteToDo"
+        android:layout_width="0dp"
+        android:background="@android:color/transparent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:src="@drawable/ic_baseline_delete_forever_24"/>
+
+
+</LinearLayout>
